@@ -389,10 +389,13 @@ text-align: center;
     background-color: none;
     border: 1px solid lightgray;
     padding: 5px 25px;
-    background-color: white;
+    background-color: tomato;
+    margin: 0px 10px;
+    color: white;
+}
+.logo-button div button i{
     margin: 0px 10px;
 }
-
 .privacy-policy{
     display: flex;
     justify-content: space-around;
@@ -579,4 +582,13 @@ footer p{
     .login-form form{
         width: 100%;
     }
+
+}
+
+@media screen and (max-width:488px) {
+    .logo-button{
+        flex-direction: column;
+        gap: 20PX;
+    }
+    
 }
