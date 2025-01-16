@@ -7,13 +7,16 @@ const onRegister=()=>{
 
     if(username==""){
         usernameError.innerHTML="Enter your username"
+        return
     }
     if(userEmail==""){
         emailError.innerHTML="Enter your email"
+        return
     }
 
     if(userPassword==""){
         passwordError.innerHTML="Enter your password"
+        return
     }
 
     try {
