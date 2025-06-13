@@ -182,6 +182,7 @@ nav img{
     border-radius: 50%;
     animation: 20s image-rotate linear infinite ;
     cursor: pointer;
+      will-change: transform;
 }
 
 .food-section img:hover{
